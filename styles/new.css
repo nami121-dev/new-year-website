@@ -77,3 +77,27 @@ h3{
   color: #151414;
   /* padding: 350px 450px 850px; */
 }
+
+.failures{
+  padding: 350px 214px 300px 900px;
+}
+
+.section-description{
+  width: 416px;
+  height: 104px;
+  margin: 24px 0 16px;
+  font-size: 16px;
+  text-align: left;
+  color: #444343;
+}
+li{
+  width: 315px;
+  height: 26px;
+  /* margin: 0 0 0 10px; */
+  font-size: 16px;
+  text-align: left;
+  color: #444343;
+}
+main{
+  position: top,left;
+}
