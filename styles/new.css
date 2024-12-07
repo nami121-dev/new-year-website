@@ -27,8 +27,8 @@ h3{
 }
 
 .banner{
-  padding: 216px 230px 150px 800px;
- 
+  padding: 216px 450px 220px 800px;
+
  
 }
  
@@ -50,6 +50,7 @@ h3{
     font-size: 16px;
     text-align: right;
     color: #444343;
+    padding-right: 320px;
  }
         
 
@@ -80,6 +81,8 @@ h3{
 
 .failures{
   padding: 350px 214px 300px 900px;
+ 
+  
 }
 
 .section-description{
@@ -98,6 +101,12 @@ li{
   text-align: left;
   color: #444343;
 }
-main{
-  position: top,left;
+
+
+main .failures{
+  background-image: url('../images/person.png');
+  background-repeat: no-repeat;
+  background-position: calc(220px);
 }
+
+ 
