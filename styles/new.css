@@ -76,6 +76,7 @@ h3{
   font-weight: bold;
   text-align: left;
   color: #151414;
+
   /* padding: 350px 450px 850px; */
 }
 
@@ -107,6 +108,42 @@ main .failures{
   background-image: url('../images/person.png');
   background-repeat: no-repeat;
   background-position: calc(220px);
+}
+.title{
+  padding: 130px 710px 50px 711px;
+  width: 179px;
+  height: 47px;
+  font-size: 40px;
+  font-weight: bold;
+  /* text-align: left; */
+  color: #151414;
+}
+.plan-container{
+  display: flex;
+  /* gap: 70px; */
+  margin: 0 100px;
+ /* justify-items: center; */
+ /* justify-content: space-evenly; */
+}
+.plan-title{
+  /* width: 270px;
+  height: 35px; */
+  /* margin: 0 0 16px; */
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #151414;
+  padding-right: 90px;
+}
+.plan-description{
+  /* width: 181px;
+  height: 29px; */
+  /* margin: 16px 0 0; */
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  color: #737272;
+
 }
 
  
