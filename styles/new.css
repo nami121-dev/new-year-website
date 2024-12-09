@@ -54,19 +54,19 @@ h3{
  }
         
 
-.btn-primary{
-    width: 160px;
-  height: 64px;
-  flex-grow: 0;
-  margin: 32px 0 0 365px;
-  padding: 21px 25px 20px 26px;
-    border-radius: 5px;
-    background-color: #f15b22;
-    font-size: 20px;
-  font-weight: 600;
-  text-align: right;
-  color: #fff;
-  border: 0;
+ .btn-primary{
+  width: 160px;
+height: 64px;
+flex-grow: 0;
+margin: 32px 0 0 365px;
+padding: 21px 25px 20px 26px;
+  border-radius: 5px;
+  background-color: #f15b22;
+  font-size: 20px;
+font-weight: 600;
+text-align: right;
+color: #fff;
+border: 0;
 }
 .section-title{
   width: 288px;
@@ -110,22 +110,23 @@ main .failures{
   background-position: calc(220px);
 }
 .title{
-  padding: 130px 710px 50px 711px;
+  padding: 130px 800px 30px 600px;
+  /* margin: 0 600px 50px 400px; */
   width: 179px;
   height: 47px;
   font-size: 40px;
   font-weight: bold;
-  /* text-align: left; */
+  text-align: center;
   color: #151414;
 }
-.plan-container{
+/* .plan-container{
   display: flex;
   /* gap: 70px; */
   margin: 0 100px;
  /* justify-items: center; */
  /* justify-content: space-evenly; */
-}
-.plan-title{
+} */
+/* .plan-title{
   /* width: 270px;
   height: 35px; */
   /* margin: 0 0 16px; */
@@ -134,8 +135,8 @@ main .failures{
   text-align: center;
   color: #151414;
   padding-right: 90px;
-}
-.plan-description{
+} */
+/* .plan-description{
   /* width: 181px;
   height: 29px; */
   /* margin: 16px 0 0; */
@@ -144,6 +145,43 @@ main .failures{
   text-align: center;
   color: #737272;
 
+} */
+
+main{
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.plan-container{
+  display: flex;
+  text-align: center;
+  /* padding: 50px 100px; */
 }
 
- 
+#item-pic{
+  padding:60px 100px 10px 100px;
+}
+.plan-title{
+  padding: 18px 90px;
+}
+.plan-description{
+  /* padding: 10px 100px; */
+}
+
+.img-container{
+  background-image: url('../images/watch.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 130px 230px;
+  border-radius: 8px;
+}
+.img-description{
+  
+    width: 459px;
+    height: 94px;
+    margin: 0 0 24px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+    padding: 60px 600px 20px 64px;
+}
