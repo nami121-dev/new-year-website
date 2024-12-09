@@ -203,3 +203,59 @@ main{
   margin: 0 0 24px 64px;
 
 }
+.footer-container{
+  display: flex;
+  /* gap: 300px; */
+  background-color: black;
+  justify-content: space-between;
+}
+.column-title{
+  width: 148px;
+  /* height: 53px; */
+  font-size: 45px;
+  font-weight: bold;
+  text-align: left;
+  color: #f8f8f8;
+  margin: 130px 0px 0px 230px;
+}
+.column-description,.email,.phone{
+  width: 485px;
+  height: 78px;
+  font-family: WorkSans;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  color: #fff;
+  margin: 0px 0px 0px 230px;
+}
+.social-links{
+  margin:0px 0px 0px 230px;
+}
+.subscribe{
+  width: 170.1px;
+  height: 64px;
+  flex-grow: 0;
+  margin: 16px 154.9px 0 0;
+  padding: 20px 36px 20px 36px;
+  border-radius: 8px;
+  background-color: #fff;
+  text-align: left;
+  color: #f15b22;
+}
+.enter-email{
+  width: 146px;
+  height: 21px;
+  font-size: 18px;
+  text-align: left;
+  color: #f3f3f3;
+
+
+  margin: 0 0 16px;
+  padding: 21px 158px 22px 21px;
+  border-radius: 8px;
+  border: solid 1px #fff;
+
+}
+/* #future{
+  padding-right: auto;
+} */
