@@ -168,9 +168,9 @@ main{
 }
 
 .img-container{
-  background-image: url('../images/watch.png');
+  background-image: url('../images/watch.png'),url('../images/gradient2.png');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center,left;
   margin: 130px 230px;
   border-radius: 8px;
 }
@@ -184,4 +184,22 @@ main{
     text-align: left;
     color: #fff;
     padding: 60px 600px 20px 64px;
+}
+#call{
+  width: 88px;
+  height: 23px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #f15b22;
+  width: 160px;
+  height: 64px;
+  flex-grow: 0;
+  margin: 24px 299px 0 0;
+  padding: 21px 36px 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 0px;
+  margin: 0 0 24px 64px;
+
 }
